@@ -51,6 +51,8 @@ RUN python -c "from huggingface_hub import hf_hub_download; \
 # 9. Set the working directory to /app
 WORKDIR /app
 
+# Copy the handler script into the working directory
+COPY handler.py /app/handler.py
+
 # 10. Define the command to run the handler
-# Assuming handler.py will be in /app
 CMD ["python", "handler.py"]
