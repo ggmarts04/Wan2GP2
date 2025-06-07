@@ -11,7 +11,7 @@ import requests # Added for downloading files
 from PIL import Image # Added for image processing
 import tempfile # Added for temporary file handling
 
-# Global variable for the sampler
+# Global variable for the sampler 
 SAMPLER = None
 
 # Paths for model components (defined globally for clarity, used in load_model)
