@@ -19,5 +19,5 @@ sentencepiece
 av
 huggingface_hub>=0.20.0
 numpy>=1.23.5,<2
-# Pydantic was in original, might be needed by diffusers/transformers, let's keep it for safety
 pydantic==2.10.6
+requests
