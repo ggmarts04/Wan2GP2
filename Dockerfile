@@ -3,7 +3,7 @@ FROM runpod/pytorch:2.2.1-py3.10-cuda12.1.1-devel-ubuntu22.04
 
 # 2. Install ffmpeg and git
 RUN apt-get update && \
-    apt-get install -y ffmpeg git && \
+    apt-get install -y ffmpeg git curl && \
     rm -rf /var/lib/apt/lists/*
 
 # 3. Create a working directory /app
